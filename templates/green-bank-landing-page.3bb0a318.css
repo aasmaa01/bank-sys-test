@@ -1,0 +1,243 @@
+.images-1-1 {
+    object-fit: cover;
+    width: 57px;
+    height: 57px;
+    position: relative;
+  }
+  
+  .badr-bank {
+    letter-spacing: -0.03em;
+    color: inherit;
+    white-space: nowrap;
+    align-self: center;
+    height: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .bank-name,
+  .images-1-1-parent {
+    justify-content: flex-start;
+    align-items: center; /* Center vertically */
+    display: flex;
+  }
+  
+  .bank-name {
+    flex-direction: column;
+    flex: 1;
+    padding: 16.5px 0 0;
+  }
+  
+  .images-1-1-parent {
+    gap: var(--gap-xs);
+    flex-direction: row;
+    width: 175px;
+  }
+  
+  .why-us {
+    color: inherit;
+    white-space: nowrap;
+    align-self: stretch;
+    width: 58px;
+    font-weight: 500;
+    text-decoration: none;
+    display:inline-block;
+    position: relative;
+  }
+  
+  .services {
+    width: 65px;
+  }
+  
+  .faqs,
+  .our-process,
+  .payments,
+  .services {
+    color: inherit;
+    align-self: stretch;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .our-process {
+    white-space: nowrap;
+    width: 94px;
+  }
+  
+  .faqs,
+  .payments {
+    width: 76px;
+  }
+  
+  .faqs {
+    width: 41px;
+  }
+  
+  .navigation-links,
+  .page-links {
+    align-items: flex-start;
+    margin: 0;
+    display: flex;
+  }
+  
+  .navigation-links {
+    justify-content: space-between;
+    align-self: stretch;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--regular-p-size);
+    color: var(--sementic-neutrals-n0);
+    font-family: var(--font-m-plus-1);
+    flex-direction: row;
+    flex: 1;
+  }
+  
+  .page-links {
+    padding: var(--padding-mid) 0 0;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 462px;
+    max-width: 100%;
+    height: 40px;
+  }
+  
+  .contact {
+    color: inherit;
+    width: 64px;
+    height: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .contact-link,
+  .contact-link-wrapper {
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+  }
+  
+  .contact-link {
+    border-radius: var(--br-45xl);
+    border: 2px solid var(--color-limegreen-100);
+    padding: var(--padding-xs) var(--padding-11xl) var(--padding-xs) var(--padding-13xl);
+    flex-direction: row;
+    align-self: stretch;
+    height: 50px;
+  }
+  
+  .contact-link-wrapper {
+    font-size: var(--regular-p-size);
+    color: var(--color-limegreen-100);
+    flex-direction: column;
+    width: 128px;
+    height: 52.5px;
+    padding: 4.5px 0 0;
+  }
+  
+  .navbar,
+  .navbar-wrapper {
+    align-items: center; /* Center vertically */
+    flex-direction: row;
+    max-width: 100%;
+    display: flex;
+    visibility: visible;
+  }
+  
+  .navbar {
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    z-index: 1000; /* Increase z-index to ensure navbar stays on top */
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color:var(--color-darkgray); /* Ensure this variable is defined */
+    font-family: var(--font-m-plus-1);
+    flex: 1;
+    margin: 0;
+    position:absolute; /* Fix the navbar at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 20px; /* Add some padding */
+  }
+  
+  .navbar-wrapper {
+    visibility: visible;
+    padding: 0 var(--padding-50xl);
+    box-sizing: border-box;
+    justify-content: space-between; /* Space between items */
+    width: 100%; /* Full width */
+    margin-top: 0; /* Remove negative margin */
+    padding-left: var(--padding-15xl);
+    padding-right: var(--padding-15xl);
+  }
+  
+  .protect-your-money{font-size:inherit;letter-spacing:-.02em;align-self:stretch;margin:0;font-family:inherit;font-weight:700;line-height:64px;position:relative}.discover-the-power,.get-started{line-height:24px;display:inline-block;position:relative}.discover-the-power{font-size:var(--font-size-lg);color:var(--color-darkgray);box-sizing:border-box;padding-right:var(--padding-xl);width:518px;max-width:100%}.get-started{font-size:var(--regular-p-size);font-weight:500;font-family:var(--font-m-plus-1);color:var(--sementic-neutrals-n0);text-align:left;min-width:94px}.hero-button-child{width:22.5px;height:16.5px;position:relative}
+  .hero-button{cursor:pointer;padding:var(--padding-base)var(--padding-13xl);background-color:var(--color-limegreen-100);border-radius:var(--br-45xl);justify-content:flex-start;align-items:center;gap:var(--gap-mini);white-space:nowrap;border:0;flex-direction:row;display:flex}.hero-button:hover,.learn-more-button:hover{background-color:var(--color-limegreen-200)}
+  .user-count-dots,.user-count-dots1,
+  .user-count-dots2{object-fit:cover;border-radius:50%;width:48px;height:48px;min-height:48px;position:relative}
+  .user-count-dots1,.user-count-dots2{z-index:1;margin-left:-12px}.user-count-dots2{z-index:2}.user-count{flex-direction:row;justify-content:flex-start;align-items:flex-end;display:flex}.active-users-around,.k{display:inline-block;position:relative}.k{min-width:56px;line-height:24px}.active-users-around{font-size:var(--font-size-xs);letter-spacing:-.02px;color:var(--color-darkgray);align-self:stretch;height:32px;line-height:16px}.active-users,.statistics{justify-content:flex-start;display:flex}.active-users{flex-direction:column;flex:1;align-items:flex-start}.statistics{padding:0 var(--padding-xl)0 0;box-sizing:border-box;align-items:center;gap:var(--gap-base);font-size:var(--regular-p-size);flex-direction:row;width:333px;max-width:100%}.statistics-icon{z-index:1;width:359px;height:100px;position:absolute;top:62px;left:-10px;margin:0!important}.hero-content{box-sizing:border-box;justify-content:flex-start;align-items:flex-start;gap:var(--gap-12xl);z-index:1;flex-direction:column;flex-shrink:0;width:604px;min-width:604px;max-width:100%;padding:0;display:flex;position:relative}.credit-card-container-child{background-color:var(--color-limegreen-100);border-radius:50%;width:492px;height:492px;position:absolute;top:47px;left:301px}.credit-card-icon{object-fit:contain;z-index:1;width:622.6px;height:479px;position:absolute;top:0;left:0}
+  .credit-card-container{width:693.5px;max-width:100%;height:539px;position:relative}
+  .credit-card-image,
+  .hero-content-parent{flex-direction:row;flex-shrink:0;justify-content:flex-start;align-items:flex-start;max-width:100%;display:flex}
+  .credit-card-image{z-index:1;width:793px;min-width:793px}
+  .hero-content-parent{gap:var(--gap-13xl);text-align:left;color:var(--sementic-neutrals-n0);font-size:56px;font-family:var(--font-m-plus-1);width:1309.5px}.experience,.y{display:inline-block;position:relative}.y{letter-spacing:-.32px;min-width:89px;line-height:56px}.experience{min-width:86px;font-weight:500;line-height:24px}
+  .stats-items,.stats-labels{justify-content:flex-start;display:flex}
+  .stats-labels{padding:0 var(--padding-11xs)0 var(--padding-12xs);font-size:var(--regular-p-size);color:var(--color-limegreen-100);flex-direction:row;align-items:flex-start}
+  .stats-items{align-items:center;gap:var(--gap-5xs);flex-direction:column;flex-shrink:0;width:278px}
+  .stats-delimiter{letter-spacing:-.32px;min-width:126px;line-height:56px;display:inline-block;position:relative}
+  .stats-delimiter-wrapper{flex-direction:row;justify-content:flex-start;align-items:flex-start;padding:0 6px;display:flex}.merchant-partner{font-size:var(--regular-p-size);color:var(--color-limegreen-100);font-weight:500;line-height:24px;position:relative}.stats-items1{padding:0 var(--padding-51xl);justify-content:flex-start;align-items:flex-start;gap:var(--gap-5xs);flex-direction:column;display:flex}.b{letter-spacing:-.32px;min-width:95px;line-height:56px;display:inline-block;position:relative}.wrapper{padding:0 var(--padding-lg);flex-direction:row;justify-content:flex-start;align-items:flex-start;display:flex}
+  .years-experience{font-size:var(--regular-p-size);color:var(--color-limegreen-100);font-weight:500;line-height:24px;position:relative}.stats-items2{justify-content:flex-start;align-items:flex-start;gap:var(--gap-5xs);flex-direction:column;padding:0 73px;display:flex}.k1{letter-spacing:-.32px;line-height:56px;position:relative}.worldwide-clients{font-weight:500;line-height:24px;position:relative}.stats-items3,.worldwide-clients-wrapper{justify-content:flex-start;align-items:flex-start;display:flex}
+  .worldwide-clients-wrapper{font-size:var(--regular-p-size);color:var(--color-limegreen-100);flex-direction:row;padding:0 13px}.stats-items3{gap:var(--gap-5xs);flex-direction:column;padding:0 56px}.about,.about-wrapper{box-sizing:border-box;flex-direction:row;align-items:flex-start;max-width:100%;display:flex}
+  .about{-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-radius:var(--br-13xl);padding:var(--padding-45xl)var(--padding-45xl)var(--padding-2xl);z-index:1;background-color:#3d544d3d;justify-content:flex-start;overflow-x:auto}.about-wrapper{padding:0 var(--padding-50xl);text-align:left;font-size:var(--font-size-29xl);color:var(--sementic-neutrals-n0);font-family:var(--font-m-plus-1);justify-content:flex-end}.what-do-we{font-size:inherit;max-width:100%;margin:0;font-family:inherit;font-weight:700;display:inline-block;position:relative}.iconsecurity{flex-shrink:0;width:32px;height:32px;position:relative;overflow:hidden}.f{border-radius:var(--br-5xl);background-color:var(--color-darkslategray-100);padding:var(--padding-base);flex-direction:row;justify-content:flex-start;align-items:flex-start;display:flex;overflow:hidden}.security-guarantee{font-weight:500;position:relative}.your-data-and{font-size:var(--regular-p-size);color:var(--color-darkgray);align-self:stretch;position:relative}.feature-details,.feature-items{flex:1;justify-content:flex-start;align-items:flex-start;display:flex}.feature-details{padding:0 var(--padding-lg)0 0;box-sizing:border-box;gap:var(--gap-5xs);flex-direction:column;min-width:198px}.feature-items{gap:var(--gap-5xl);flex-direction:row;min-width:294px;max-width:100%}.f1,.pie-icon{overflow:hidden}.pie-icon{flex-shrink:0;width:32px;height:32px;position:relative}.f1{border-radius:var(--br-5xl);background-color:var(--color-darkslategray-100);padding:var(--padding-base);flex-direction:row;justify-content:flex-start;align-items:flex-start;display:flex}.investing{min-width:108px;font-weight:500;display:inline-block;position:relative}.your-data-and1{font-size:var(--regular-p-size);color:var(--color-darkgray);align-self:stretch;position:relative}.feature-items1,.investing-parent{flex:1;justify-content:flex-start;align-items:flex-start;display:flex}.investing-parent{padding:0 var(--padding-lg)0 0;box-sizing:border-box;gap:var(--gap-5xs);flex-direction:column;min-width:198px}.feature-items1{gap:var(--gap-5xl);flex-direction:row;min-width:294px;max-width:100%}.iconanalytics{width:32px;height:32px;position:relative}.f2{border-radius:var(--br-5xl);background-color:var(--color-darkslategray-100);padding:var(--padding-base);flex-direction:row;justify-content:flex-start;align-items:flex-start;display:flex;overflow:hidden}.multiple-method{font-weight:500;position:relative}
+  .your-data-and2{font-size:var(--regular-p-size);color:var(--color-darkgray);align-self:stretch;position:relative}
+  .feature-items2,
+  .feature-list,
+  .multiple-method-parent{justify-content:flex-start;align-items:flex-start;display:flex}
+  .multiple-method-parent{padding:0 var(--padding-lg)0 0;box-sizing:border-box;gap:var(--gap-5xs);flex-direction:column;flex:1;min-width:198px}.feature-items2,.feature-list{flex-direction:row;max-width:100%}.feature-items2{gap:var(--gap-5xl);flex:1;min-width:294px}.feature-list{align-self:stretch;gap:var(--gap-13xl);font-size:var(--font-size-5xl);flex-wrap:wrap}.features,.features-wrapper{box-sizing:border-box;max-width:100%;display:flex}.features{justify-content:flex-start;align-items:center;gap:var(--gap-45xl);z-index:1;flex-direction:column;flex:1;padding:0 0 189px}.features-wrapper{padding:0 var(--padding-50xl)var(--padding-base);text-align:left;font-size:var(--font-size-21xl);color:var(--sementic-neutrals-n0);font-family:var(--font-m-plus-1);flex-direction:row;flex-shrink:0;justify-content:flex-end;align-items:flex-start;width:1378.5px}.dont-hesitate-to{font-size:inherit;z-index:1;align-self:stretch;margin:0;font-family:inherit;font-weight:700;position:relative}.apply-for-credit,.join-us{font-size:var(--regular-p-size);line-height:24px;display:inline-block;position:relative}.apply-for-credit{font-family:var(--regular-p);color:var(--color-darkgray);z-index:1;width:424px;max-width:100%;margin:0}.join-us{font-weight:500;font-family:var(--font-m-plus-1);color:var(--sementic-neutrals-n0);text-align:left;min-width:94px}.join-us-icon-child{width:22.5px;height:16.5px;position:relative}.join-us-button,.join-us-icon{justify-content:flex-start;align-items:flex-start;display:flex}.join-us-icon{flex-direction:column;padding:3.8px 0 0}.join-us-button{cursor:pointer;padding:var(--padding-base)var(--padding-13xl);background-color:var(--color-limegreen-100);border-radius:var(--br-45xl);gap:var(--gap-base);z-index:1;border:0;flex-direction:row}.application-call-to-action,.application-description{flex-direction:column;justify-content:flex-start;align-items:flex-start;max-width:100%;display:flex}.application-description{align-self:stretch;gap:var(--gap-5xl);flex-shrink:0}.application-call-to-action{padding:0 0 var(--padding-28xl);box-sizing:border-box;width:604px;min-width:604px;min-height:421px}.badr-banque-mastercard-titaniu-icon{object-fit:contain;border-radius:61px;width:638.3px;height:524.2px;position:absolute;top:-34px;right:-71.3px;margin:0!important}
+  .card-rating-icon{object-fit:contain;z-index:1;width:370px;height:370px;position:absolute;top:-87px;left:-264.8px;margin:0!important}.mastercard-image{flex-direction:column;justify-content:flex-start;align-items:flex-start;width:534.2px;max-width:100%;height:489.8px;display:flex;position:relative}
+  .credit-card-display,
+  .credit-card-visuals{box-sizing:border-box;align-items:flex-start;display:flex}
+  .credit-card-visuals{z-index:1;flex-direction:row;flex-shrink:0;justify-content:flex-end;width:695px;max-width:107%;margin-left:-42px;padding:0 0 29.6px}
+  .credit-card-display{flex-direction:column;justify-content:flex-start;width:653px;min-width:653px;max-width:100%;padding:0}
+  .application-call-to-action-parent{flex-direction:row;justify-content:flex-start;align-items:flex-end;row-gap:20px;max-width:100%;display:flex}.form-fields-child{-webkit-backdrop-filter:blur(12.96px);backdrop-filter:blur(12.96px);background-color:var(--color-gray-200);border:2.2px solid var(--color-gray-100);box-sizing:border-box;border-radius:34.72px;width:414.4px;max-width:100%;height:262.6px;display:none;position:relative}.exclude-icon,.vector-stroke-icon{z-index:3;flex-shrink:0;width:43.7px;height:26px;position:relative}.vector-stroke-icon{width:25.7px;height:34.7px}
+  .input-fields{justify-content:space-between;align-self:stretch;align-items:flex-start;gap:var(--gap-xl);flex-direction:row;padding:0 7px 5.4px 0;display:flex}.credit-card-no{z-index:3;min-width:116px;font-weight:600;display:inline-block;position:relative}.card-number-input1{white-space:pre-wrap;z-index:3;line-height:27px;position:relative}.card-number-placeholder{padding:0 var(--padding-10xs)0 22px;color:var(--sementic-neutrals-n0);font-size:21.7px;font-family:var(--font-m-plus-1-code);flex-direction:row}.card-number-field,.card-number-input,.card-number-placeholder{justify-content:flex-start;align-items:flex-start;display:flex}.card-number-input{flex-direction:column;gap:9.4px}
+  .card-number-field{flex-direction:row;padding:0 8px}
+  .name{z-index:3;min-width:42px;font-weight:600;display:inline-block;position:relative}
+  .name-wrapper{box-sizing:border-box;flex-direction:column;justify-content:flex-start;align-items:flex-start;width:44.3px;padding:4.3px 0 0;display:flex}.exp{z-index:3;flex-shrink:0;min-width:32px;font-weight:600;display:inline-block;position:relative}
+  .name-label{padding:0 var(--padding-10xs)0 0;box-sizing:border-box;justify-content:space-between;align-items:flex-start;gap:var(--gap-xl);flex-direction:row;width:167
+  .3px;display:flex}.cardholder-name-placeholder,
+  .rehan-raihan{z-index:3;min-width:100px;font-weight:500;display:inline-block;position:relative}
+  .cardholder-name-placeholder{min-width:40px;font-weight:600}
+  .cardholder-name{flex-direction:row;flex:1;justify-content:flex-start;align-items:flex-start;gap:32.5px;display:flex}
+  .expiry-input{padding:0 0 0 var(--padding-10xs);font-size:var(--font-size-smi);color:var(--sementic-neutrals-n0);flex-direction:row;align-self:stretch}.expiry-input,.form-fields,.name-field,.name-input{justify-content:flex-start;align-items:flex-start;display:flex}.name-input{flex-direction:column;flex:1;gap:6.2px}.form-fields,.name-field{padding:0 var(--padding-mid);box-sizing:border-box;flex-direction:row;width:214.2px}.form-fields{-webkit-backdrop-filter:blur(12.96px);backdrop-filter:blur(12.96px);background-color:var(--color-gray-200);border:2.2px solid var(--color-gray-100);padding:var(--padding-6xl)44px var(--padding-15xl);z-index:2;border-radius:34.72px;flex-direction:column;gap:22.8px;width:441.7px;min-width:439.5px;max-width:100%}.find-the-perfect{font-size:inherit;z-index:1;align-self:stretch;margin:0;font-family:inherit;font-weight:700;position:relative}.discover-your-ideal,
+  .learn-more{font-size:var(--regular-p-size);line-height:24px;display:inline-block;position:relative}
+  .discover-your-ideal{font-family:var(--regular-p);color:var(--color-darkgray);z-index:1;width:546px;max-width:100%}
+  .learn-more{font-weight:500;font-family:var(--font-m-plus-1);color:var(--sementic-neutrals-n0);text-align:left;min-width:88px;text-decoration:none}.benefits-content,.credit-card-benefits,.learn-more-button{justify-content:flex-start;align-items:flex-start;display:flex}
+  .learn-more-button{cursor:pointer;padding:var(--padding-base)var(--padding-13xl);background-color:var(--color-limegreen-100);border-radius:var(--br-45xl);white-space:nowrap;z-index:1;border:0;flex-direction:row}.benefits-content,.credit-card-benefits{flex-direction:column;max-width:100%}.benefits-content{align-self:stretch;gap:var(--gap-5xl)}.credit-card-benefits{box-sizing:border-box;font-size:var(--font-size-21xl);color:var(--sementic-neutrals-n0);flex:1;min-width:393px;padding:75.4px 0 0}.form-container,.payment-form{flex-direction:row;align-items:flex-start;max-width:100%;display:flex}.form-container{flex:1;justify-content:flex-start;gap:175.7px}.payment-form{padding:0 var(--padding-mid)0 var(--padding-2xl);box-sizing:border-box;font-size:var(--font-size-base-2);color:var(--color-whitesmoke);justify-content:flex-end;align-self:stretch}.application-content{flex-direction:column;flex:1;justify-content:flex-start;align-items:flex-end;gap:108px;max-width:100%;display:flex}.application-content-wrapper{box-sizing:border-box;text-align:left;font-size:var(--font-size-21xl);color:var(--sementic-neutrals-n0);font-family:var(--font-m-plus-1);flex-direction:row;flex-shrink:0;justify-content:flex-end;align-items:flex-start;width:1361.5px;max-width:100%;padding:0 52px 75.5px;display:flex}.quote-content-icon{flex-shrink:0;width:24px;height:24px;position:relative;overflow:hidden}.testimonial-quotes{border-radius:var(--br-37xl);background-color:var(--color-darkslategray-100);padding:var(--padding-base);box-sizing:border-box;flex-direction:row;justify-content:flex-start;align-items:flex-start;width:56px;height:56px;display:flex}.great-session-dani{align-self:stretch;margin:0;line-height:24px;position:relative}.author-avatars-icon{object-fit:cover;border-radius:50%;width:48px;height:48px;position:relative}.hadid-khan,.uiux-designer{display:inline-block;position:relative}.hadid-khan{letter-spacing:-.32px;min-width:86px;font-weight:500;line-height:24px}.uiux-designer{font-size:var(--font-size-xs);color:var(--color-darkgray);min-width:84px;line-height:20px}.author-details,.author-information{flex-direction:column;justify-content:flex-start;align-items:flex-start;display:flex}.author-details{justify-content:center;gap:var(--gap-5xs);font-family:var(--font-m-plus-1);flex-direction:row}.testimonial-items{-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-radius:var(--br-13xl);background-color:var(--color-darkslategray-200);padding:var(--padding-29xl)var(--padding-xl)var(--padding-29xl)var(--padding-5xl);box-sizing:border-box;justify-content:flex-start;align-items:flex-start;gap:var(--gap-13xl);flex-direction:column;flex:1;min-width:294px;max-width:100%;display:flex}.frame-icon{flex-shrink:0;width:24px;height:24px;position:relative;overflow:hidden}.frame{border-radius:var(--br-37xl);background-color:var(--color-darkslategray-100);padding:var(--padding-base);box-sizing:border-box;flex-direction:row;justify-content:flex-start;align-items:flex-start;width:56px;height:56px;display:flex}.its-is-both{align-self:stretch;margin:0;line-height:24px;position:relative}.ellipse-icon{object-fit:cover;border-radius:50%;width:48px;height:48px;position:relative}.wade-warren,.web-designer{display:inline-block;position:relative}.wade-warren{letter-spacing:-.32px;min-width:99px;font-weight:500;line-height:24px}.web-designer{font-size:var(--font-size-xs);color:var(--color-darkgray);min-width:79px;line-height:20px}.frame1,.frame2,.testimonial-items1{flex-direction:column;justify-content:flex-start;align-items:flex-start;display:flex}.frame1,.testimonial-items1{justify-content:center;gap:var(--gap-5xs);flex-direction:row}.testimonial-items1{-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-radius:var(--br-13xl);background-color:var(--color-darkslategray-200);padding:var(--padding-29xl)var(--padding-xl)var(--padding-29xl)var(--padding-5xl);box-sizing:border-box;justify-content:flex-start;gap:var(--gap-13xl);font-family:var(--font-m-plus-1);flex-direction:column;flex:1;min-width:294px;max-width:100%}.frame-icon1{flex-shrink:0;width:24px;height:24px;position:relative;overflow:hidden}.frame3{border-radius:var(--br-37xl);background-color:var(--color-darkslategray-100);padding:var(--padding-base);box-sizing:border-box;flex-direction:row;justify-content:flex-start;align-items:flex-start;width:56px;height:56px;display:flex}.i-am-really{align-self:stretch;margin:0;line-height:24px;position:relative}.ellipse-icon1{object-fit:cover;border-radius:50%;width:48px;height:48px;position:relative}.jenny-wilson,.trust-administrator{display:inline-block;position:relative}.jenny-wilson{letter-spacing:-.32px;min-width:99px;font-weight:500;line-height:24px}.trust-administrator{font-size:var(--font-size-xs);color:var(--color-darkgray);min-width:114px;line-height:20px}.frame5{flex-direction:column;justify-content:flex-start}.frame4,.frame5,.testimonial-items2{align-items:flex-start;display:flex}.frame4{justify-content:center;gap:var(--gap-5xs);font-family:var(--font-m-plus-1);flex-direction:row}.testimonial-items2{-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-radius:var(--br-13xl);background-color:var(--color-darkslategray-200);padding:var(--padding-29xl)var(--padding-xl)var(--padding-29xl)var(--padding-5xl);box-sizing:border-box;justify-content:flex-start;gap:var(--gap-13xl);flex-direction:column;flex:1;min-width:294px;max-width:100%}.testimonial,.testimonial-wrapper{flex-direction:row;align-items:flex-start;max-width:100%;display:flex}.testimonial{justify-content:center;gap:var(--gap-13xl);z-index:1;flex-wrap:wrap;flex:1}.testimonial-wrapper{padding:0 var(--padding-50xl);box-sizing:border-box;text-align:left;font-size:var(--regular-p-size);color:var(--sementic-neutrals-n0);font-family:var(--regular-p);flex-shrink:0;justify-content:flex-end;width:1378.5px}.dora-wrap-icon{width:1621px;height:100%;max-height:100%;position:absolute;top:0;bottom:0;left:0}.badr-banque-cib-gold-comparili-icon{border-radius:var(--br-29xl);object-fit:contain;z-index:2;width:631.9px;height:455.9px;position:absolute;top:1994px;left:712.5px}.card-icon{object-fit:contain;z-index:1;width:474.6px;height:331.7px;position:absolute;top:2555.8px;left:247.3px}.card-star-icon,.vector-icon{z-index:3;width:43.7px;height:34.7px;position:absolute;top:17.3px;left:90.4px}.card-star-icon{object-fit:contain;z-index:4;width:100%;height:100%;top:0;left:0}.slide-item,.star-rating{width:309.9px;height:309.9px;position:absolute;top:2614.3px;left:491.6px}.slide-item{width:1507px;height:5344px;top:-3532.3px;left:-307.5px;margin:0!important}.faqs1,.what-credit-score{font-size:inherit;margin:0;font-family:inherit;font-weight:700;position:relative}.faqs1{min-width:103px;display:inline-block}.what-credit-score{line-height:32px}.answer-list-icon{width:16px;height:3.1px;position:relative}.faq-questions{justify-content:space-between;align-self:stretch;align-items:center;gap:var(--gap-xl);flex-direction:row;display:flex}.the-required-credit{font-size:var(--regular-p-size);color:var(--color-darkgray);align-self:stretch;line-height:24px;position:relative}.faq-items{border-bottom:1.5px solid var(--color-darkgray);padding:0 0 var(--padding-sm);justify-content:flex-start;align-self:stretch;align-items:flex-start;gap:var(--gap-base);flex-direction:column;display:flex}.how-can-i{font-size:inherit;margin:0;font-family:inherit;font-weight:700;line-height:32px;position:relative}.icon{width:16px;height:16px;position:relative}.how-can-i-apply-for-a-credit-c-parent{justify-content:space-between;align-self:stretch;align-items:center;gap:var(--gap-xl);flex-direction:row;display:flex}.applying-for-a{font-size:var(--regular-p-size);color:var(--color-darkgray);width:1004px;max-width:100%;line-height:24px;display:none;position:relative}.faq-items1{border-bottom:1.5px solid var(--color-darkgray);box-sizing:border-box;padding:0 0 var(--padding-sm);justify-content:flex-start;align-self:stretch;align-items:flex-start;gap:var(--gap-base);flex-direction:column;max-width:100%;display:flex}.are-there-any{font-size:inherit;margin:0;font-family:inherit;font-weight:700;line-height:32px;position:relative}.icon1{width:16px;height:16px;position:relative}.are-there-any-annual-fees-asso-parent{justify-content:space-between;align-self:stretch;align-items:center;gap:var(--gap-xl);flex-direction:row;display:flex}.annual-fees-may{font-size:var(--regular-p-size);color:var(--color-darkgray);align-self:stretch;line-height:24px;display:none;position:relative}.faq-items2{border-bottom:1.5px solid var(--color-darkgray);padding:0 0 var(--padding-sm);justify-content:flex-start;align-self:stretch;align-items:flex-start;gap:var(--gap-base);flex-direction:column;display:flex}.how-long-does{font-size:inherit;margin:0;font-family:inherit;font-weight:700;line-height:32px;position:relative}.icon2{width:16px;height:16px;position:relative}.how-long-does-it-take-to-recei-parent{justify-content:space-between;align-self:stretch;align-items:center;gap:var(--gap-xl);flex-direction:row;display:flex}.once-your-credit{font-size:var(--regular-p-size);color:var(--color-darkgray);align-self:stretch;line-height:24px;display:none;position:relative}.faq-items3{border-bottom:1.5px solid var(--color-darkgray);padding:0 0 var(--padding-sm);justify-content:flex-start;align-self:stretch;align-items:flex-start;gap:var(--gap-base);flex-direction:column;display:flex}.how-can-i1{font-size:inherit;margin:0;font-family:inherit;font-weight:700;line-height:32px;position:relative}.icon3{width:16px;height:16px;position:relative}.how-can-i-check-my-credit-card-parent{justify-content:space-between;align-self:stretch;align-items:center;gap:var(--gap-xl);flex-direction:row;display:flex}.you-can-easily{font-size:var(--regular-p-size);color:var(--color-darkgray);align-self:stretch;line-height:24px;display:none;position:relative}.faq-items4{border-bottom:1.5px solid var(--color-darkgray);padding:0 0 var(--padding-sm);justify-content:flex-start;align-self:stretch;align-items:flex-start;gap:var(--gap-base);flex-direction:column;display:flex}.what-should-i{font-size:inherit;margin:0;font-family:inherit;font-weight:700;line-height:32px;position:relative}.icon4{width:16px;height:16px;position:relative}.what-should-i-do-if-my-credit-parent{justify-content:space-between;align-self:stretch;align-items:center;gap:var(--gap-xl);flex-direction:row;display:flex}.if-your-credit{font-size:var(--regular-p-size);color:var(--color-darkgray);align-self:stretch;line-height:24px;display:none;position:relative}.faq-items5{border-bottom:1.5px solid var(--color-darkgray);padding:0 0 var(--padding-sm);justify-content:flex-start;align-self:stretch;align-items:flex-start;gap:var(--gap-base);flex-direction:column;display:flex}.is-my-credit{font-size:inherit;margin:0;font-family:inherit;font-weight:700;line-height:32px;position:relative}.icon5{width:16px;height:16px;position:relative}.is-my-credit-card-information-parent{justify-content:space-between;align-self:stretch;align-items:center;gap:var(--gap-xl);flex-direction:row;display:flex}.yes-we-prioritize{font-size:var(--regular-p-size);color:var(--color-darkgray);align-self:stretch;line-height:24px;display:none;position:relative}.faq,.faq-items6,.faq-list{flex-direction:column;justify-content:flex-start;display:flex}.faq-items6{border-bottom:1.5px solid var(--color-darkgray);padding:0 0 var(--padding-sm);align-self:stretch;align-items:flex-start;gap:var(--gap-base)}.faq,.faq-list{align-items:center;max-width:100%}.faq-list{align-self:stretch;gap:var(--gap-5xl);font-size:var(--font-size-5xl);font-family:var(--regular-p)}.faq{gap:var(--gap-45xl);z-index:1;flex:1}.slider,.slider-container{flex-direction:row;align-items:flex-start;max-width:100%;display:flex}.slider{justify-content:flex-start;width:1020px;position:relative}.slider-container{padding:0 var(--padding-xl);box-sizing:border-box;text-align:left;font-size:var(--font-size-21xl);color:var(--sementic-neutrals-n0);font-family:var(--font-m-plus-1);flex-shrink:0;justify-content:center;width:1378.5px}
+  .easy-way-to{font-size:inherit;letter-spacing:-.48px;flex:1;max-width:100%;margin:0;font-family:inherit;font-weight:700;line-height:180px;display:inline-block;position:relative}.catchphrase{padding:0 0 0 var(--padding-12xs);box-sizing:border-box;flex-direction:row;justify-content:flex-start;align-self:stretch;align-items:flex-start;max-width:100%;display:flex}.easy-to-use{font-size:var(--font-size-lg);letter-spacing:-.03em;line-height:24px;font-family:var(--font-m-plus-1);color:var(--color-darkgray);width:484px;max-width:100%;display:inline-block;position:relative}.app-title,.badge-icons{flex-shrink:0;max-width:100%}.app-title{flex-direction:column;justify-content:flex-start;align-items:flex-start;gap:20.1px;width:605px;display:flex}.badge-icons{align-self:stretch;height:32px;position:relative;overflow:hidden}.badgesapp-store{border-radius:var(--br-base);background-color:var(--color-darkslategray-100);padding:var(--padding-base);box-sizing:border-box;flex-direction:column;justify-content:flex-start;align-items:flex-start;width:154.9px;display:flex}.vector-icon1{flex-shrink:0;align-self:stretch;max-width:100%;height:32px;position:relative;overflow:hidden}.app-info,.badgesapp-store-parent,.badgesgoogle-play{justify-content:flex-start;align-items:flex-start;display:flex}.badgesgoogle-play{border-radius:var(--br-base);background-color:var(--color-darkslategray-100);padding:var(--padding-base);box-sizing:border-box;flex-direction:column;flex:1;min-width:110px}.app-info,.badgesapp-store-parent{max-width:100%}.badgesapp-store-parent{gap:var(--gap-5xl);flex-flow:wrap;flex-shrink:0;width:349px}.app-info{border-radius:var(--br-29xl);box-sizing:border-box;gap:var(--gap-13xl);flex-direction:column;width:100%;height:252px;padding:0 0 95.9px;position:absolute;top:calc(50% - 302.1px);left:calc(50% - 619px)}.image-108-icon{object-fit:cover;z-index:1;width:604px;height:850.4px;position:absolute;top:0;right:-1px}
+  .cta{z-index:1;flex:1;max-width:100%;height:472px;position:relative;overflow:hidden}.app-container{padding:0 var(--padding-50xl);box-sizing:border-box;flex-direction:row;justify-content:flex-end;align-items:flex-start;width:1378.5px;max-width:100%;display:flex}
+  .footer-background{-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px);z-index:2;background-color:#2834303d;width:1500px;height:100%;position:absolute;top:0;bottom:0;right:-30.5px;margin:0!important}.exclude-icon1{width:24px;height:24px;min-height:24px;position:relative}.greenbank{letter-spacing:-.03em;min-width:104px;line-height:24px;display:inline-block;position:relative}.logo{justify-content:center;align-items:center;gap:var(--gap-xs);flex-direction:row;display:flex}.discover-the-power1{font-size:var(--regular-p-size);letter-spacing:-.03em;color:var(--color-darkgray);width:287px;line-height:24px;display:inline-block;position:relative}.main-footer{padding:0 var(--padding-xl)94px 0;box-sizing:border-box;flex-direction:column;justify-content:flex-start;align-items:flex-start;gap:10px;width:392px;min-width:392px;max-width:100%;display:flex}.about-us,.book-a-demo,.features1,.investors,.security{min-width:71px;line-height:24px;display:inline-block;position:relative}.book-a-demo,.features1,.security{min-width:67px}.book-a-demo,.security{min-width:99px}.security{min-width:65px}.column-two,.link-columns{flex-direction:column;justify-content:flex-start;align-items:flex-start;display:flex}.column-two{padding:0 var(--padding-xl)0 0;align-self:stretch;gap:var(--gap-5xs);color:var(--color-darkgray)}.link-columns{gap:var(--gap-base);flex:1;min-width:143px;max-width:180px}.credits-cards,.products{min-width:71px;line-height:24px;display:inline-block;position:relative}.credits-cards{min-width:105px}.gift-cards{min-width:81px;display:inline-block}.gift-cards,.nft,.savings-accounts{line-height:24px;position:relative}.nft{min-width:34px;display:inline-block}.frame7,.link-columns1{flex-direction:column;justify-content:flex-start;align-items:flex-start;display:flex}.frame7{padding:0 var(--padding-xl)0 0;align-self:stretch;gap:var(--gap-5xs);color:var(--color-darkgray)}.link-columns1{gap:var(--gap-base);flex:1;min-width:143px;max-width:180px}.free-rewards,.useful-links1{min-width:97px;line-height:24px;display:inline-block;position:relative}.free-rewards{min-width:98px}.documentation{min-width:119px;display:inline-block}.affiliate-program,.documentation{line-height:24px;position:relative}.link-list,.useful-links{flex-direction:column;justify-content:flex-start;align-items:flex-start;display:flex}.link-list{padding:0 var(--padding-xl)0 0;align-self:stretch;gap:var(--gap-5xs);color:var(--color-darkgray)}.useful-links{gap:var(--gap-base);flex:1;min-width:140px;max-width:180px}.changelog,.license,.news,.site-maps,.social{min-width:48px;line-height:24px;display:inline-block;position:relative}.changelog,.license,.news,.site-maps{min-width:82px}.license,.news,.site-maps{min-width:59px}.news,.site-maps{min-width:76px}.news{min-width:42px}.frame8,.link-columns2{flex-direction:column;justify-content:flex-start;align-items:flex-start;display:flex}.frame8{padding:0 var(--padding-xl)0 0;align-self:stretch;gap:var(--gap-5xs);color:var(--color-darkgray)}.link-columns2{gap:var(--gap-base);flex:1;min-width:143px;max-width:180px}.footer-content,.frame6{justify-content:flex-start;gap:var(--gap-13xl);flex-direction:row;max-width:100%;display:flex}.frame6{font-size:var(--regular-p-size);flex:1;align-items:flex-start;min-width:530px}.footer-content{z-index:3;align-self:stretch;align-items:center}.copyright-2023-doradesign,.this-page-uses{line-height:20px;position:relative}.this-page-uses{font-family:var(--regular-p);width:288px;display:inline-block;position:absolute;top:0;right:-950px;margin:0!important}.social-link-icon{width:28px;height:1px;position:relative}.copyright,.social-icon{align-items:flex-start;display:flex}.social-icon{padding:var(--padding-mid)0 0;flex-direction:column;justify-content:flex-start}.copyright{justify-content:space-between;align-self:stretch;gap:var(--gap-xl);z-index:3;font-size:var(--font-size-xs);color:var(--color-darkgray);flex-direction:row;position:relative}
+  .app-container-parent,.footer,.greenbank-landing-page{flex-direction:column;justify-content:flex-start;display:flex}
+  .footer{padding:70px var(--padding-50xl)25px 100px;box-sizing:border-box;font-size:var(--font-size-xl);font-family:var(--font-m-plus-1);align-self:stretch;align-items:flex-start;gap:150px;max-width:100%;position:relative ;width: 100%;}
+  .app-container-parent,.greenbank-landing-page{align-items:flex-end}
+  .app-container-parent{ font-size:var(--font-size-29xl);color:var(--sementic-neutrals-n0);font-family:var(--regular-p);align-self:stretch;max-width:100%}.greenbank-landing-page{padding:var(--padding-51xl)0 187.7px var(--padding-11xl);box-sizing:border-box;letter-spacing:normal;background-color:#1a1e1c;gap:124px;width:100%;height:5117px;line-height:normal;position:relative;overflow:hidden}@media screen and (width<=1400px){
+  .credit-card-image,.hero-content{flex:1}.hero-content-parent{flex-wrap:wrap}.about{padding-left:var(--padding-13xl);padding-right:var(--padding-13xl);box-sizing:border-box}.about-wrapper,.features-wrapper{padding-left:var(--padding-15xl);padding-right:var(--padding-15xl);box-sizing:border-box}.application-call-to-action,.credit-card-display{flex:1}.application-call-to-action-parent{flex-wrap:wrap}.form-container{gap:88px}.application-content-wrapper{padding-left:var(--padding-7xl);padding-right:var(--padding-7xl);box-sizing:border-box}.app-container,.footer,.testimonial-wrapper{padding-right:var(--padding-15xl);box-sizing:border-box}.app-container,.testimonial-wrapper{padding-left:var(--padding-15xl)}.footer{padding-left:50px}.greenbank-landing-page{height:auto}}@media screen and (width<=1125px){.credit-card-display,.credit-card-image{min-width:100%}
+  .form-fields{flex:1}.form-container{flex-wrap:wrap}.application-content-wrapper{padding-bottom:var(--padding-30xl);box-sizing:border-box}.faq{gap:var(--gap-13xl)}.main-footer{box-sizing:border-box;flex:1;padding-right:0}.footer-content{flex-wrap:wrap}}@media screen and (width<=825px){.page-links{display:none}.protect-your-money{font-size:45px;line-height:51px}.hero-content{gap:var(--gap-mini);min-width:100%}
+  .hero-content-parent{
+    gap:var(--gap-base)
+}
+.b,.k1,.stats-delimiter,.y{font-size:var(--font-size-19xl);line-height:45px}.what-do-we{font-size:var(--font-size-13xl)}.feature-list{gap:var(--gap-base)}.features{gap:var(--gap-13xl)}.dont-hesitate-to{font-size:var(--font-size-13xl)}.application-call-to-action,.form-fields{min-width:100%}.find-the-perfect{font-size:var(--font-size-13xl)}.credit-card-benefits{min-width:100%}.form-container{gap:44px}.application-content{gap:54px}.application-content-wrapper{padding-bottom:var(--padding-13xl);box-sizing:border-box}.testimonial{gap:var(--gap-base)}.faqs1{font-size:var(--font-size-13xl)}.faq{gap:var(--gap-base)}.easy-way-to{font-size:var(--font-size-19xl);line-height:45px}.app-info{gap:var(--gap-base)}.frame6,.main-footer{min-width:100%}.frame6{flex-wrap:wrap}.footer-content{gap:var(--gap-base)}.footer{gap:var(--gap-21xl);padding-left:var(--padding-6xl);box-sizing:border-box}.greenbank-landing-page{gap:62px}}@media screen and (width<=450px){.protect-your-money{font-size:34px;line-height:38px}.stats-delimiter,.y{font-size:var(--font-size-10xl);line-height:34px}.stats-items1{padding-left:var(--padding-xl);padding-right:var(--padding-xl);box-sizing:border-box}.b{font-size:var(--font-size-10xl);line-height:34px}.stats-items2{padding-left:var(--padding-xl);padding-right:var(--padding-xl);box-sizing:border-box}.k1{font-size:var(--font-size-10xl);line-height:34px}.stats-items3{padding-left:var(--padding-xl);padding-right:var(--padding-xl);box-sizing:border-box}.what-do-we{font-size:var(--font-size-5xl)}.security-guarantee{font-size:var(--font-size-lgi)}.feature-items{flex-wrap:wrap}.investing{font-size:var(--font-size-lgi)}.feature-items1{flex-wrap:wrap}.multiple-method{font-size:var(--font-size-lgi)}.feature-items2{flex-wrap:wrap}.features{gap:var(--gap-base);box-sizing:border-box;padding-bottom:123px}.dont-hesitate-to{font-size:var(--font-size-5xl)}.application-call-to-action{padding-bottom:var(--padding-12xl);box-sizing:border-box}.card-number-input1{font-size:17px;line-height:21px}.form-fields{padding-left:var(--padding-xl);padding-right:var(--padding-xl);box-sizing:border-box}.find-the-perfect{font-size:var(--font-size-5xl)}.credit-card-benefits{padding-top:var(--padding-30xl);box-sizing:border-box}.form-container{gap:22px}.application-content{gap:27px}.testimonial-items,.testimonial-items1,.testimonial-items2{gap:var(--gap-base);padding-top:var(--padding-12xl);padding-bottom:var(--padding-12xl);box-sizing:border-box}.faqs1{font-size:var(--font-size-5xl)}.are-there-any,.how-can-i,.how-can-i1,.how-long-does,.is-my-credit,.what-credit-score,.what-should-i{font-size:var(--font-size-lgi);line-height:26px}.easy-way-to{font-size:var(--font-size-10xl);line-height:34px}.app-info,
+  .cta{height:auto}
+  .cta{min-height:500px}
+  .greenbank{font-size:var(--regular-p-size);line-height:19px}.frame6{gap:var(--gap-base)}.footer{gap:var(--gap-xl);box-sizing:border-box;padding-top:39px;padding-bottom:23px}.greenbank-landing-page{gap:var(--gap-12xl)}}
+  /*# sourceMappingURL=green-bank-landing-page.3bb0a318.css.map */
