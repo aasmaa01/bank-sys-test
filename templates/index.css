@@ -538,7 +538,7 @@ dont-have-an {
   width: 559.3px;
   box-shadow: 0 0 60px rgba(0, 0, 0, 0.07);
   border-radius: var(--br-3xs);;
-  background-color: var(--color-white);/*888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
+  background-color: var(--color-white);/**/
   flex-direction: column;
   justify-content: flex-start;
   padding: var(--padding-29xl) 47px var(--padding-29xl) var(--padding-29xl);

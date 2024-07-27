@@ -35,7 +35,7 @@
   line-height: 24px;
   text-transform: capitalize;
   font-weight: 600;
-  color: inherit;
+  color: white;
   flex-shrink: 0;
   white-space: nowrap;
 }
@@ -67,7 +67,7 @@
   line-height: 24px;
   text-transform: capitalize;
   font-weight: 600;
-  color: inherit;
+  color: white;
   display: inline-block;
   min-width: 48px;
 }
@@ -83,7 +83,7 @@
   line-height: 24px;
   text-transform: capitalize;
   font-weight: 600;
-  color: inherit;
+  color: white;
 }
 .nav-list8 {
   display: inline-block;
@@ -825,7 +825,8 @@
 }
 .before-icon1,
 .link-darkpng1 {
-  max-width: 100%;
+  width: 45px; /* Set the desired width */
+  height: 45px; /* Set the desired height */
   overflow: hidden;
   object-fit: cover;
 }
@@ -1391,7 +1392,7 @@
 }
 .contact1 {
   width: 100%;
-  background-color: var(--color-white);
+  background-color:#1a1e1c;
   padding: var(--padding-11xl) 0 0;
   gap: 349.5px;
   line-height: normal;
