@@ -28,6 +28,12 @@
   padding: 0 0 var(--padding-10xs);
   box-sizing: border-box;
 }
+
+.nav-list,
+.nav-list-item-link {
+  position: relative;
+  flex-shrink: 0;
+}
 .nav-list5 {
   text-decoration: none;
   flex: 1;
@@ -35,10 +41,11 @@
   line-height: 24px;
   text-transform: capitalize;
   font-weight: 600;
-  color: white;
+  color: inherit;
   flex-shrink: 0;
   white-space: nowrap;
 }
+
 .nav-list-item-link {
   width: 16px;
   height: 16px;
@@ -67,7 +74,7 @@
   line-height: 24px;
   text-transform: capitalize;
   font-weight: 600;
-  color: white;
+  color: inherit;
   display: inline-block;
   min-width: 48px;
 }
@@ -84,6 +91,8 @@
   text-transform: capitalize;
   font-weight: 600;
   color: white;
+  display: inline-block;
+  min-width: 48px;
 }
 .nav-list8 {
   display: inline-block;
@@ -157,6 +166,7 @@
   padding: 0 0 var(--padding-5xs);
   box-sizing: border-box;
   max-width: 100%;
+  
 }
 .link-icon3 {
   height: 50px;
@@ -825,8 +835,7 @@
 }
 .before-icon1,
 .link-darkpng1 {
-  width: 45px; /* Set the desired width */
-  height: 45px; /* Set the desired height */
+  max-width: 25%;
   overflow: hidden;
   object-fit: cover;
 }
@@ -1393,6 +1402,8 @@
 .contact1 {
   width: 100%;
   background-color:#1a1e1c;
+  background-image: url('before1@2x.png'); /*ttttttttttttttttttttttttttttttttttttttttttt*/
+  
   padding: var(--padding-11xl) 0 0;
   gap: 349.5px;
   line-height: normal;

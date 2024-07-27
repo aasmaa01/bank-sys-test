@@ -21,18 +21,18 @@
     <section class="hero-content-parent"> 
         <div class="hero-content"> <h1 class="protect-your-money"> Protect your money with the best security solutions. </h1>    
             <div class="discover-the-power"> Discover the power of our secure and rewarding credit cards. Explore our range of credit cards and take control of your finances today. 
-            </div> <button class="hero-button"> 
-            <div class="get-started">Get Started
-            </div> <img class="hero-button-child" alt src="vector-7.da43442e.svg"> </button> 
-            <div class="statistics"> 
-                <div class="user-count"> <img class="user-count-dots" alt src="user-count-dots@2x.f99936e7.png"> <img class="user-count-dots1" alt src="ellipse-1@2x.790eadd3.png"> <img class="user-count-dots2" loading="lazy" alt src="ellipse-2@2x.f70630b4.png"> 
-                </div> 
-                <div class="active-users"> <b class="k">10.2k+</b> 
-                    <div class="active-users-around"> Active users around the wordls 
-
-                    </div> 
-                </div> 
-            </div> 
+            </div>  <button id="hero-button" class="hero-button"> 
+                <div class="get-started">Get Started</div> 
+                <img class="hero-button-child" alt="icon" src="vector-7.da43442e.svg"> 
+            </button> 
+        
+            <script>
+                document.getElementById('hero-button').addEventListener('click', function() {
+                    // Open the login page in a new tab
+                    window.open('/Users/dell/Documents/Bank_Website-gh-pages/Bank-sys-master/templates/login.html?', '_blank');
+  
+                });
+            </script>
             <img class="statistics-icon" loading="lazy" alt src="vector-4.e1410a59.svg"> 
         </div> 
         <div class="credit-card-image"> 
