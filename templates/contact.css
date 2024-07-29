@@ -1506,7 +1506,7 @@
     font-size: var(--font-size-5xl);
     line-height: 38px;
   }
-  .divcontact-section-parent {
+  .divcontact-section-parent { 
     gap: var(--gap-mid);
   }
   .heading-44,
