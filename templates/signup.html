@@ -313,5 +313,28 @@
         </div>
       </footer>
     </div>
+    <script>
+      document.getElementById('signup-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const username = document.getElementById('username').value;
+        const firstName = document.getElementById('first_name').value;
+        const lastName = document.getElementById('last_name').value;
+        const dateOfBirth = document.getElementById('date_of_birth').value;
+        const address = document.getElementById('address').value;
+        const phoneNumber = document.getElementById('phone_number').value;
+        const emailAddress = document.getElementById('email_address').value;
+        const ninCust = document.getElementById('nin_cust').value;
+        const ribCust = document.getElementById('rib_cust').value;
+        const agencyId = document.getElementById('agency_id').value;
+
+        if (!username || !firstName || !lastName || !dateOfBirth || !address || !phoneNumber || !emailAddress || !ninCust || !ribCust || !agencyId) {
+          alert('Please fill out all required fields.');
+          return;
+        }
+
+        // Perform the signup process here
+        alert('Form submitted successfully!');
+      });
+    </script>
   </body>
 </html>
