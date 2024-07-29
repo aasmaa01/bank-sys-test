@@ -386,6 +386,40 @@
           </div>
         </div>
       </footer>
+      <script>
+        async function handleContact(event) {
+            event.preventDefault();
+            
+            const form = document.getElementById('contact-form');
+            const formData = new FormData(form);
+            const payload = {
+                full_name: formData.get('full_name'),
+                email: formData.get('email'),
+                phone_number: formData.get('phone_number'),
+                message: formData.get('message')
+            };
+
+            try {
+                const response = await fetch('/contact', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                const result = await response.json();
+                if (response.ok) {
+                    alert('Message sent successfully');
+                    form.reset(); // Reset form fields
+                } else {
+                    alert('Failed to send message: ' + result.message);
+                }
+            } catch (error) {
+                alert('An error occurred: ' + error.message);
+            }
+        }
+    </script>
     </div>
   </body>
 </html>
